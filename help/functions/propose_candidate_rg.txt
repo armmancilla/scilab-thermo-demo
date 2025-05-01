@@ -1,0 +1,18 @@
+//  PROPOSING A NEW CANDIDATE FOR THE POSITION
+//  ------------------------------------------
+//
+//  Generates a posible new position for a random particle j
+//
+//  SYNTAX
+//    [xp,j] = propose_candidate_rg(X)
+//
+//  ARGUMENTS
+//    xp
+//      Matrix of the positions containing the new position
+//
+//    j
+//      Random index of the particle whose position was updated
+//
+//    X
+//      Matrix of the current positions of the particles
+//

@@ -1,0 +1,13 @@
+//  -----------------------
+//  | PROGRAM DESCRIPTION |
+//  -----------------------
+//
+//  MetropolisHastings is a SciLab interactive program to illustrate the use of the Metropolis-
+//  Hastings Algorithm in the finding of equations of state for a gas under the Lennard-Jones
+//  potential and a gas of hard spheres.
+//
+//  The current program consist of an User Interface where the user has two cases to simulate.
+//  For each case, the initial parameters can be modify to get different behaviours, but the
+//  final results will be unique to the problem. The main goal of the program is to show variables
+//  of the equation of state and how they evolve as we vary the parameters.
+//

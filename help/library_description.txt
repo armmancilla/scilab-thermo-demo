@@ -1,0 +1,12 @@
+//  ---------------------
+//  | FUNCTIONS LIBRARY |
+//  ---------------------
+//  
+//  Here are stored all the necessary functions and parameters to execute the main program.
+//
+//  The program execute simulations of particles of a gas under the Lennard-Jones potential and
+//  particles belonging to a hard sphere gas. Both simulations rely on the Metropolis-Hastings
+//  Algorithm. "Equation of State Calculations by Fast Computing Machines" (1953).
+//
+//  Each problem has a unique list object that stores all the parameters used for the simulation.
+//

@@ -1,0 +1,23 @@
+//  FITTING FUNCTIONS
+//  -----------------
+//
+//  The Histogram data behaves as an exponential function, so we make a Fit to find the value
+//  of -N(1/2). The fit uses two functions: FF(x,p), which returns the values of the theretical
+//  function, and myfunc(p,x,data,w), that returns the error between data and the theory
+//
+//  ARGUMENTS
+//    x
+//      Vector of points where the function is defined
+//
+//    p
+//      Parameters of the exponential function: p(1)*exp(-p(2)*x)
+//
+//    y
+//      Theoretical values of the function to fit
+//
+//    data
+//      Experimental values
+//
+//    w
+//      In case the function is weighted, w represents the weigths at the point x
+//

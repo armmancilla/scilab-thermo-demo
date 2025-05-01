@@ -1,0 +1,16 @@
+//  DISTANCE BETWEEN ALL PARTICLES
+//  ------------------------------
+//
+//  Calculates the current minimal distance between all particles
+//
+//  SYNTAX
+//    dis = distance(X)
+//
+//  ARGUMENTS
+//    dis
+//      NxN matrix with the minimal distance for N particles. Cells contain the distance Dij, note
+//      that Distance Dij = Dji, and Dii = 0. Therefore, there are only (N^2 - N)/2 valid distances
+//
+//    X
+//      Matrix of the current positions of the particles
+//

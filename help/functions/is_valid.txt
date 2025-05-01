@@ -1,0 +1,18 @@
+//  VALIDATION OF ONE POSITION
+//  --------------------------
+//
+//  Checks if a particle is not overlapped with any other
+//
+//  SYNTAX
+//    check = is_valid(X)
+//
+//  ARGUMENTS
+//    check
+//      Boolean scalar with the result
+//
+//    j
+//      Index of the particle to check
+//
+//    X
+//      Matrix of the current positions of the particles
+//

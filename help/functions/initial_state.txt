@@ -1,0 +1,14 @@
+//  PROPOSING A NEW CANDIDATE FOR THE POSITION
+//  ------------------------------------------
+//
+//  Generates a matrix Nxf (particles x dimension) of the initial positions of the particles in the
+//  system, equally spaced. The function locates the nearest upper limit 'm^f >= N^f' to scatter
+//  the particles and arrange them in rows of 'm' until it reaches 'N'
+//
+//  SYNTAX
+//    [X0] = initial_state()
+//
+//  ARGUMENTS
+//    X0
+//      Resulting matrix with the initial positions
+//

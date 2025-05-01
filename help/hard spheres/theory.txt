@@ -1,0 +1,15 @@
+//  The purpose of the Metropolis-Hastings simulation, in the hard sphere particle problem, is to
+//  obtain the radial distribution, a function that collects the inner distances between particles
+//  (the histogram of particles inside a region of [K^2-1]*pi*d^2, K being a fixed parameter), to
+//  calculate the variable that defines the equation of state (PV/NkT). The actual method relies
+//  more on Probability & Statistics Theory, but we are currently basing this physics problem on
+//  the article "Equation of State Calculations by Fast Computing Machines", by Metropolis N.,
+//  Rosenbluth A., Rosenbluth M. & Teller A. (1953). Here, the authors found a physical connection
+//  between the variable (PV/NkT - 1) and the radial distribution as n*R(1/2)/[N^2*(K^2-1)], with
+//  n being the number of bins of the histogram of the radial distribution, R(1/2) the value of the
+//  histogram at the surface of the particles (at the distance of collision), and N the number of
+//  particles.
+//
+//  The method theory is applicable to a two-dimensional problem, but further Statistical Mechanics
+//  theory can be used to generalize the formulas to higher dimensions.
+//

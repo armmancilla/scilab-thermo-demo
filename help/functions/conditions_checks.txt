@@ -1,0 +1,27 @@
+//  CONDITIONS CHECK
+//  ----------------
+//
+//  Prevents the user from breaking the program when assigning a new value to a parameter. It feeds
+//  on the limits list of the problem and returns the new variable inside the rigth range. If the
+//  input is inside the limits, is allowed, otherwise it will return the limit quantity of the
+//  parameter depending if its higher of lower.
+//
+//  SYNTAX
+//    new_data = check_conditions(option,problem_list,lower_limit,upper_limit)
+//
+//  ARGUMENTS
+//    new_data
+//      List containing the change in the parameter
+//
+//    option
+//      Index of the parameter to change inside the problem_list
+//
+//    problem_list
+//      List containing all parameters to run the simulation
+//
+//    lower_limit
+//      Corresponding list with the minimum accepted values to run the simulation
+//
+//    upper_limit
+//      Corresponding list with the maximum accepted values to run the simulation
+//

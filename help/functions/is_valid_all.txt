@@ -1,0 +1,15 @@
+//  VALIDATION OF ALL POSITIONS
+//  ---------------------------
+//
+//  Checks if all the positions are valid (no particles are overlapped)
+//
+//  SYNTAX
+//    check = is_valid_all(X)
+//
+//  ARGUMENTS
+//    check
+//      Boolean scalar with the result
+//
+//    X
+//      Matrix of the current positions of the particles
+//

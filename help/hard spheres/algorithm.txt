@@ -1,0 +1,23 @@
+//  We can think of this algortihm as a MonteCarlo method to simulate particles interactions.
+//  Contrary to the original MonteCarlo, which makes impossible to obtain data for large particle's
+//  diameters, the Metropolis-Hastings algorithm proposes new particle's positions and checks if
+//  the new state of the system is valid (none of the particles overlap). By generating these
+//  possible system states, we can then collect data to calculate the statistical properties.
+//
+//  The new positions are proposed by a random number generator function that returns numbers of a
+//  normal distribution of variance 1, multiply by the step size. If the new values fall outside of
+//  the box, we correct it allowing the particle to appear in the other side of the box, that is,
+//  allowing periodic boundaries.
+//
+//  The simulation is permorfed a total of C MonteCarlo Steps, being C the number of cycles. Thus,
+//  in total we make N*C iterations, randomly updating one of the N particles. After each
+//  MonteCarlo step, we count the particles inside a region of K (a fixed number) diameters from a
+//  reference particle. These results are stored in a histogram whose bins indicates rings of the
+//  same area, the total area where we search for particles is A = (K^2-1)*pi*d^2, d is the
+//  diameter of the particles. pi*d^2 is the reference area given the minimum distance between two
+//  hard spheres is d. This histogram is then fitted with an exponential function to get the value
+//  of the distribution at the position 0 (the middle of the distance d between particles), which
+//  is at the surface of the hard spheres when they collide. This is a important quantity to
+//  calculate the variable that defines the equation of state (PV/NkT).
+//  
+//

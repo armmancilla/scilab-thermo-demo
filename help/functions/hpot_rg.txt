@@ -1,0 +1,15 @@
+//  HAMILTONIAN OF A GAS WITH LENNARD-JONES POTENTIAL
+//  -------------------------------------------------
+//
+//  Calculates the result of the Hamiltonian of the system
+//
+//  SYNTAX
+//    result = Hpot_rg(X)
+//
+//  ARGUMENTS
+//    result
+//      Scalar of Energy of the current state of the system due to the Lennard-Jones Potential
+//
+//    X
+//      Matrix of the current positions of the particles
+//

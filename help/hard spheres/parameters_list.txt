@@ -1,0 +1,23 @@
+//  The Simulation of the Hard Spheres relies in one list of parameters both for the more physical
+//  adjustments and for the technical properties.
+//  The 'hard_spheres' list is a one dimensional array of length 6, its parameters can be changed
+//  by the user in the hard speheres menu.
+//
+//  * hard_spheres(1): N -     Number of particles
+//    ->  Min: 16,      Max: 400
+//
+//  * hard_spheres(2): f -     Spatial dimension
+//    ->  Min: 1,       Max: 5
+//
+//  * hard_spheres(3): K - Diameters to look for particles
+//    ->  Min: 1.01,    Max: 15.0
+//
+//  * hard_spheres(4): nb - Number of bins of the Histogram
+//    ->  Min: 8,       Max: 80
+//
+//  * hard_spheres(5): c -     Number of cycles to run the program
+//    ->  Min: 64,      Max: 512
+//
+//  * hard_spheres(6): nu0 -  Index of a case to plot as example
+//    ->  Min: 1,       Max: 8
+//
